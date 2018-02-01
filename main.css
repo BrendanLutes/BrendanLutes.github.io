@@ -1,8 +1,8 @@
 body{
-    background-image: url("images/flatirons.jpg");
-    background-size: cover;
+    background-image: url("images/naise_pic.jpeg");
+    background-size: stretch;
     text-align: center;
-    align-content: center;
+    align-content: stretch;
 }
 
 li{
@@ -10,8 +10,18 @@ li{
 }
 
 p{
+  text-align: left;
   align-content: center;
-  color: white;
+  margin: auto;
+  color: black;
+  font-size: 20px;
+  width: 60%;
+  margin-bottom: 0;
+  text-indent: 1.5em;
+}
+p+p{
+  text-indent: 1.5em;
+  margin-top: 0;
 }
 
 navigator{
